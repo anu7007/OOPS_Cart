@@ -83,7 +83,8 @@ class Cart
                 }
                 // echo "</table>";
                 echo "<tr><td colspan='2'></td><th>TOTAL PRICE:</th><th>" . '₹'.$total . "</th>
-                <td><marquee behavior='alternate' width=75%sss scrollamount=5><a href='emptyCart.php' style='color: black'>EMPTY CART</a></marquee></td>
+                <td><marquee behavior='alternate' width=75% scrollamount=5 onmouseover='this.stop();'
+                onmouseout='this.start();'><a href='emptyCart.php' style='color: black'>EMPTY CART</a></marquee></td>
                 </tr>
                 </table>";
             }
